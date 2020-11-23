@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--SEO stuff-->
+    <meta name="description" content="Nearest Hospitals can be found">
+    <meta name="keywords" content="nearest,help line,nearest location,web design,medicine,help,need,ambulance,doctor,dactor,hospital,hospital database,website,send me ambulance,nearest,nearest hospitals">
+    <meta name="author" content="Abdullah Al Masum">
+    <!--    SEO Stuff ends-->
+    <title>Project Need Help? | Comment</title>
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/masum.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/masum.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/masum.ico">
+    <link rel="apple-touch-icon-precomposed" href="#">
+    <link rel="shortcut icon" href="assets/images/masum.ico">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fontawesome -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <!-- Flaticons -->
+    <link href="assets/css/font/flaticon.css" rel="stylesheet">
+    <!-- Slick Slider -->
+    <link href="assets/css/slick.css" rel="stylesheet">
+    <!-- Range Slider -->
+    <link href="assets/css/ion.rangeSlider.min.css" rel="stylesheet">
+    <!-- Datepicker -->
+    <link href="assets/css/datepicker.css" rel="stylesheet">
+    <!-- magnific popup -->
+    <link href="assets/css/magnific-popup.css" rel="stylesheet">
+    <!-- Nice Select -->
+    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <!-- Custom Stylesheet -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Custom Responsive -->
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- place -->
+    <!--    for Google Recptcha-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!--    For Sweet Alert-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!--    for BariKoi api-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barikoi/barikoi-js@b6f6295467c19177a7d8b73ad4db136905e7cad6/dist/barikoi.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
+</head>
+<body class="animated-banner">
+<!-- Start Main Body -->
+<div class="main-body">
+    <!-- Start Header -->
+    <header class="header-style-1">
+        <!-- Start Topbar -->
+        <div class="topbar-style-1">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="left-side">
+                            <p class="text-custom-black no-margin">
+                                Uttara,Dhaka-1230,Bangladesh
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="right-side">
+                            <ul class="custom">
+                                <li><a href="https://www.facebook.com/people/Masum/100015653296778" target="_blank" class="text-custom-white fs-14"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://twitter.com/masum6035" target="_blank" class="text-custom-white fs-14"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/abdullah-al-masum-903ba8190/" target="_blank" class="text-custom-white fs-14"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCfu2KXAd0luSzh-tLlfV_cg" target="_blank" class="text-custom-white fs-14"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Topbar -->
+        <!-- Start Navigation -->
+        <div class="main-navigation-style-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="navigation">
+                            <div class="logo">
+                                <a href="about.html">
+                                    <img src="assets/images/masum_production_logo.png" class="img-fluid image-fit"
+                                         alt="Logo">
+                                </a>
+                            </div>
+                            <div class="main-menu">
+                                <div class="mobile-logo">
+                                    <a href="about.html">
+                                        <img src="assets/images/masum_production_logo.png" class="img-fluid image-fit"
+                                             alt="Logo">
+                                    </a>
+                                </div>
+                                <nav>
+                                    <ul class="custom">
+                                        <li class="menu-item active menu-item-has-children">
+                                            <a href="index.html" class="text-custom-white">Homepage</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="about.html" class="text-custom-white">About Me</a>
+                                        </li>
+                                        <li class="menu-item menu-item-has-children">
+                                            <a href="#" class="text-custom-white">Comment</a>
+                                            <ul class="custom sub-menu">
+                                                <li class="menu-item">
+                                                    <a href="comment.html" class="text-light-grey">Comment Section</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item menu-item-has-children">
+                                            <a href="#" class="text-custom-white">Pages</a>
+                                            <ul class="custom sub-menu">
+                                                <li class="menu-item">
+                                                    <a href="login.html" class="text-light-grey">Login</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="register.html" class="text-light-grey">Register</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="404.html" class="text-light-grey">404</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="coming-soon.html" class="text-light-grey">Comming Soon</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item menu-item-has-children">
+                                            <a href="#" class="text-custom-white">Medicine</a>
+                                            <ul class="custom sub-menu">
+                                                <li class="menu-item">
+                                                    <a href="coming-soon.html" class="text-light-grey">Medicine Shop</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="contact.html" class="text-custom-white">Contact Me</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+<!--                                <div class="right-side">-->
+<!--                                    <div class="cta-btn">-->
+<!--                                        <a href="#" class="btn-first btn-submit" onclick="getLocation()">-->
+<!--                                            Locate Me-->
+<!--                                        </a>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+                            </div>
+                            <div class="hamburger-menu">
+                                <div class="menu-btn">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Navigation -->
+    </header>
+    <!-- End Header -->    <!-- Start Subheader -->
+    <div class="sub-header p-relative">
+        <div class="overlay overlay-bg-black"></div>
+        <div class="pattern"></div>
+        <div class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="sub-header-content p-relative">
+                            <h1 class="text-custom-white lh-default fw-600">Comment Section</h1>
+                            <ul class="custom">
+                                <li>
+                                    <a href="index.html" class="text-custom-white">Home</a>
+                                </li>
+                                <li>
+                                    <a href="comment.html" class="text-custom-white">Comment</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--    &lt;!&ndash; End Subheader &ndash;&gt;-->
+<!--    <div class="section-padding bg-light-white our-articles" id="firebaseComment"> </div>-->
+<!--    <section class="section-padding bg-light-white our-articles">-->
+<!--        <div class="container">-->
+<!--            <div class="comment-respond" id="respond">-->
+<!--                <h4 class="text-custom-black fw-600">Leave Comment</h4>-->
+<!--                <form id="comment-Form">-->
+<!--                    <div class="row">-->
+<!--                        <div class="col-md-6">-->
+<!--                            <div class="form-group">-->
+<!--                                <label class="text-custom-black fw-600 fs-14">Full Name</label>-->
+<!--                                <input type="text" name="usernameForComment" id="usernameForComment"-->
+<!--                                       class="form-control form-control-custom" placeholder="Full Name">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-md-6">-->
+<!--                            <div class="form-group">-->
+<!--                                <label class="text-custom-black fw-600 fs-14">Email Id</label>-->
+<!--                                <input type="email" name="emailForCommentSection" id="emailForCommentSection"-->
+<!--                                       class="form-control form-control-custom" placeholder="email account">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-md-6">-->
+<!--                            <div class="form-group">-->
+<!--                                <label class="text-custom-black fw-600 fs-14">Upload Image</label>-->
+<!--                                <input type="file" class="form-control form-control-custom" id="image" accept="images/*"-->
+<!--                                       placeholder="upload an image">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-12">-->
+<!--                            <div class="form-group">-->
+<!--                                <label class="text-custom-black fw-600 fs-14">Comment</label>-->
+<!--                                <textarea rows="4" id="comentSectionId" name="comentSection"-->
+<!--                                          class="form-control form-control-custom" placeholder="Comment"></textarea>-->
+<!--                            </div>-->
+<!--                            <button type="submit" class="btn-first btn-submit text-light-blue" onclick="upload();">Leave Comment</button>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </form>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--    <br>-->
+<!--    &lt;!&ndash; comments &ndash;&gt;-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</section>-->
+<!--&lt;!&ndash; End Blog &ndash;&gt;</div>-->
+    <div class="container mt-2">
+        <div class="card">
+            <div class="card-body">
+                <form id="post-form">
+                    <center>
+                        <h3>Comment Section</h3>
+                    </center>
+                    <textarea id="post" class="form-control" placeholder="Leave your valuable comment here and plz upload an image"></textarea>
+                    <input type="file" class="form-control" id="image" accept="images/*">
+                    <div class="text-center">
+                        <button type="button" class="btn btn-success" onclick="upload()">Leave Comment</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+        <div class="row mt-4" id="posts">
+
+        </div>
+
+    </div>
+    <script>
+        function upload(){
+            //get your image
+            var image=document.getElementById('image').files[0];
+            //get your blog text
+            var post=document.getElementById('post').value;
+            //get image name
+            var imageName=image.name;
+            //firebase storage reference
+            //it is the path where your image will be stored
+            var storageRef=firebase.storage().ref('images/'+imageName);
+            //upload image to selected storage reference
+            //make sure you pass image here
+            var uploadTask=storageRef.put(image);
+            //to get the state of image uploading....
+            uploadTask.on('state_changed',function(snapshot){
+                //get task progress by following code
+                var progress=(snapshot.bytesTransferred/snapshot.totalBytes)*100;
+                console.log("upload is "+progress+" done");
+            },function(error){
+                //handle error here
+                console.log(error.message);
+            },function(){
+                //handle successfull upload here..
+                uploadTask.snapshot.ref.getDownloadURL().then(function(downloadURL){
+                    //get your image download url here and upload it to databse
+                    //our path where data is stored ...push is used so that every post have unique id
+                    firebase.database().ref('blogs/').push().set({
+                        text:post,
+                        imageURL:downloadURL
+                    },function(error){
+                        if(error){
+                            alert("Error while uploading");
+                        }else{
+                            alert("Successfully uploaded");
+                            //now reset your form
+                            document.getElementById('post-form').reset();
+                            getdata();
+                        }
+                    });
+                });
+            });
+
+        }
+
+        window.onload=function(){
+            this.getdata();
+        }
+
+
+        function getdata(){
+            firebase.database().ref('blogs/').once('value').then(function(snapshot){
+                //get your posts div
+                var posts_div=document.getElementById('posts');
+                //remove all remaining data in that div
+                posts.innerHTML="";
+                //get data from firebase
+                var data=snapshot.val();
+                console.log(data);
+                //now pass this data to our posts div
+                //we have to pass our data to for loop to get one by one
+                //we are passing the key of that post to delete it from database
+                for(let[key,value] of Object.entries(data)){
+                    posts_div.innerHTML="<div class='col-sm-4 mt-2 mb-1'>"+
+                        "<div class='card'>"+
+                        "<img src='"+value.imageURL+"' style='height:250px;'>"+
+                        "<div class='card-body'><p class='card-text'>"+value.text+"</p>"+
+                        "<button class='btn btn-danger' id='"+key+"' onclick='delete_post(this.id)'>Delete</button>"+
+                        "</div></div></div>"+posts_div.innerHTML;
+                }
+
+            });
+        }
+
+        function delete_post(key){
+            firebase.database().ref('blogs/'+key).remove();
+            getdata();
+
+        }
+    </script>
+    <!-- Start Newsletter -->
+    <section class="newsletter-style-1 section-padding bg-light-blue">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="newsletter-content-wrapper mb-md-40">
+                        <h3 class="text-custom-white fw-600">Join Our Newsletter</h3>
+                        <p class="text-custom-white">To get any kind of upgrade + latest news,just submit your mail here.We will notify you</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="newsletter-form-wrapper">
+                        <form>
+                            <div class="input-group">
+                                <input type="email" name="#" id="subscriberEmail" class="form-control form-control-custom"
+                                       placeholder="Email Id">
+                                <div class="input-group-append">
+                                    <button type="submit" id="subscription">Subscribe</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Newsletter -->
+    <!-- Start Footer -->
+    <footer class="section-padding bg-custom-white footer-style-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-box mb-md-40">
+                        <div class="logo">
+                            <a href="contact.html">
+                                <img src="assets/images/masum_production_logo.png" class="img-fluid image-fit" alt="logo">
+                            </a>
+                        </div>
+                        <p class="text-custom-black no-margin">
+                            We are very commited to our jobs done perfectly & to get the perfect result it may take some time But the outcome will be fantastic
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-info mb-md-40">
+                        <h5 class="text-custom-black fw-600">Available time</h5>
+                        <p class="no-margin text-custom-black fs-14">
+                            Mon - Wed: <span class="text-custom-black fw-600">9:00 AM - 7:00 PM</span><br>
+                            Thursday: <span class="text-custom-black fw-600">9:00 AM - 6:30 PM</span><br>
+                            Friday: <span class="text-custom-black fw-600">9:00 AM - 6:00 PM</span><br>
+                            Sat - Sun: <span class="text-custom-black fw-600">Closed</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-info mb-sm-40">
+                        <h5 class="text-custom-black fw-600">Emergency phone</h5>
+                        <h4 class="text-light-blue fw-600">0-155-180-5248</h4>
+                        <p class="no-margin text-custom-black fs-14">Here is the phone number,if you have any query or website to build don't hesitate Just Contact me
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-info">
+                        <h5 class="text-custom-black fw-600">Our Location</h5>
+                        <p class="text-custom-black fs-14">Uttara,Dhaka-1230<br>Bangladesh</p>
+                        <p class="no-margin text-custom-black fs-14">
+                            Email:
+                            <a href="https://mail.google.com/mail/u/0/" target="_blank" class="text-custom-black fw-600">201914044@student.mist.ac.bd</a><br>
+                            Phone:
+                            <a href="#" class="text-custom-black fw-600">+(880) 161 500 1206</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Start Copyright -->
+    <div class="copyright-style-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <p class="text-custom-black">
+                        © 2020 <a href="https://github.com/MasumBhai" class="fw-600" target="_blank">MasumProduction</a> All
+                        Rights Reserved
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="social-media mb-xl-20">
+                        <ul class="custom">
+                            <li><a href="https://www.facebook.com/people/Masum/100015653296778" class="text-light-grey fs-14"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://twitter.com/masum6035" class="text-light-grey fs-14"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/abdullah-al-masum-903ba8190/" class="text-light-grey fs-14"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCfu2KXAd0luSzh-tLlfV_cg" class="text-light-grey fs-14"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Copyright -->
+    <!-- back to top -->
+    <div id="back-top" class="back-top">
+        <a href="#top"><i class="flaticon-up-arrow"></i></a>
+    </div>
+</div>
+<!-- End Main Body -->
+<!-- Place all Scripts Here -->
+<!-- jQuery -->
+<script src="assets/js/jquery.min.js"></script>
+<!-- Popper -->
+<script src="assets/js/popper.min.js"></script>
+<!-- Bootstrap -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Range Slider -->
+<script src="assets/js/ion.rangeSlider.min.js"></script>
+<!-- Slick Slider -->
+<script src="assets/js/slick.min.js"></script>
+<!-- Datepicker -->
+<script src="assets/js/datepicker.js"></script>
+<script src="assets/js/datepicker.en.js"></script>
+<!-- Nice Select -->
+<script src="assets/js/jquery.nice-select.js"></script>
+<!-- Nice Select -->
+<script src="assets/js/particles.js"></script>
+<!-- Magnific Popup -->
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnd9JwZvXty-1gHZihMoFhJtCXmHfeRQg"></script>
+<!-- Isotope Gallery -->
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<!-- Custom Js -->
+<script src="assets/js/custom.js"></script>
+<!--lottiPlayer sccript-->
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<!-- /Place all Scripts Here -->
+<script src="assets/js/nearByLocation.js"></script>
+<script src="assets/js/subscribersEmailUpload.js"></script>
+<!--//for firebase-->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+<script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyAfuP3riC8HdhrgHg0OlFllB_W3A2HFuR4",
+        authDomain: "projectneedhelp-4cfcb.firebaseapp.com",
+        databaseURL: "https://projectneedhelp-4cfcb.firebaseio.com",
+        projectId: "projectneedhelp-4cfcb",
+        storageBucket: "projectneedhelp-4cfcb.appspot.com",
+        messagingSenderId: "567114211808",
+        appId: "1:567114211808:web:94a6223db9f2301b0c0b85",
+        measurementId: "G-RVSXFGZW8F"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+
+    document.getElementById('subscription').onclick=function () {
+        //to get what time subscribed
+        var today = new Date();
+        var date = today.getDate() + '/' + (today.getMonth() + 1) + '/' + today.getFullYear();
+        var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+        var dateTime = date + ' ' + time;
+        //to get email
+        var subscrirEmail = document.getElementById('subscriberEmail').value;
+
+        firebase.database().ref('subscribers/' + subscrirEmail).set({
+            subsriber_Email: subscrirEmail,
+            subscriptionTime: dateTime
+        });
+    }
+</script>
+</body>
+</html>
